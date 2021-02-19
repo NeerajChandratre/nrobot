@@ -15,3 +15,5 @@ The output of this code results in the autonomous navigation of a '6 wheeled rob
 2. Map:- Created a custom map on gazebo for testing
 3. Map(using Gmapping Package):- I created a map for autonomous navigation.
 4. Navigation:- I ran the code for AMCL. Then I further made the robot completely autonomous by giving it the locations using the code in the simple_navigation_goals.cpp file.
+ ### Graph
+ ![](rosgraph.png)
