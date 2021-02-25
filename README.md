@@ -1,9 +1,9 @@
 # nrobot
 ### Steps for running this code
-1. Go into the directory of njcrobot and run 'catkin_make'
-2. Source the file in your terminal
+1. Go inside the folder of nrobot and run 'catkin_make'
+2. Source the file
 3. In first terminal, launch gazebo `roslaunch njcrobot_gazebo robot.launch`
-4. In second terminal, launch Rviz `roslaunch njcrobot_description njcrobot_rviz.launch` (select the fixed frame to 'odom')
+4. In second terminal, launch Rviz `roslaunch njcrobot_description njcrobot_rviz.launch` (select the fixed frame to 'odom' in Rviz)
 5. In third terminal, launch AMCL `roslaunch njcrobot_navigation amcl_demo.launch` (change the directory name in the first line of test_map.yaml file to your directory)
 6. In fourth terminal, launch simple_navigation_goals code `rosrun simple_navigation_goals simple_navigation_goals src/`
 ### Usage of this code
