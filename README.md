@@ -1,11 +1,12 @@
 # nrobot
 ### Steps for running this code
-1. Go inside the folder of nrobot and run 'catkin_make'
-2. Source the file
-3. In first terminal, launch gazebo `roslaunch njcrobot_gazebo robot.launch`
-4. In second terminal, launch Rviz `roslaunch njcrobot_description njcrobot_rviz.launch` (select the fixed frame to 'odom' in Rviz)
-5. In third terminal, launch AMCL `roslaunch njcrobot_navigation amcl_demo.launch` (change the directory name in the first line of test_map.yaml file to your directory)
-6. In fourth terminal, launch simple_navigation_goals code `rosrun simple_navigation_goals simple_navigation_goals src/`
+1. Clone the repository
+2. Go inside the folder of nrobot and run 'catkin_make'
+3. Source the file
+4. In first terminal, launch gazebo `roslaunch njcrobot_gazebo robot.launch`
+5. In second terminal, launch Rviz `roslaunch njcrobot_description njcrobot_rviz.launch` (select the fixed frame to 'odom' in Rviz)
+6. In third terminal, launch AMCL `roslaunch njcrobot_navigation amcl_demo.launch` (change the directory name in the first line of test_map.yaml file to your directory)
+7. In fourth terminal, launch simple_navigation_goals code `rosrun simple_navigation_goals simple_navigation_goals src/`
 ### Usage of this code
 The output of this code results in the autonomous navigation of a '6 wheeled robot.' The robot navigates the four locations mentioned in the simple_navigation_goals.cpp file and also stops at each location for 10 seconds. This functionality can be useful for garden robots or for any other purposes.
 ### Components used here
